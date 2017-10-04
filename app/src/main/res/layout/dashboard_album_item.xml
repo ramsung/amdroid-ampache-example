@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="250dp"
+              android:layout_height="300dp"
+              android:background="@drawable/bg_panel_inner"
+    >
+
+    <ImageView android:id="@+id/art"
+               android:layout_width="250dp"
+               android:layout_height="250dp"
+               android:src="@drawable/album_not_available"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="false"
+        />
+
+    <TextView android:id="@+id/title"
+              android:singleLine="false"
+              android:textSize="20sp"
+              android:textStyle="bold"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Album name"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+    <TextView android:id="@+id/other"
+              android:singleLine="false"
+              android:textSize="16sp"
+              android:textStyle="normal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Some artist - 13 tracks"
+              android:textAlignment="center"
+              android:gravity="center_horizontal" />
+
+</LinearLayout>
+
